@@ -41,3 +41,17 @@ Masukkan data baru, atau tekan Enter untuk mempertahankan nilai lama.
 Menghapus Data:
 
 Pilih nama mahasiswa yang ingin dihapus.
+```mermaid
+graph TD
+    Start([Mulai]) --> Input[Input: Pilih L, T, U, H, atau K]
+    Input --> Lihat[Lihat Data<br>Tampilkan data atau pesan 'Tidak Ada Data']
+    Input --> Tambah[Tambah Data<br>Input NIM, Nama, Nilai, Hitung Nilai Akhir]
+    Input --> Ubah[Ubah Data<br>Cari Nama, Ubah atau Pertahankan Data]
+    Input --> Hapus[Hapus Data<br>Cari Nama, Hapus jika ditemukan]
+    Input --> Keluar[Keluar dari Program]
+    Lihat --> Input
+    Tambah --> Input
+    Ubah --> Input
+    Hapus --> Input
+    Keluar --> End([Selesai])
+```
