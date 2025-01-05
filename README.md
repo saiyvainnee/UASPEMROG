@@ -1,4 +1,9 @@
+
 ## UASPEMROG
+
+## Link penjelasan youtube
+
+https://youtu.be/jefY0lxtow4
 
 ## Kelas Mahasiswa
 Kelas ini berisi atribut dan metode untuk mengelola data mahasiswa.
